@@ -39,7 +39,7 @@ p{
 }
 /* First section */
 .first-section{
-    background: url(../shapes/top-bg.png);
+    background: url(../shapes/header-bg.png);
     background-repeat: no-repeat;
 }
 .half-width{
@@ -101,9 +101,11 @@ h2{
 }
 /* Third section */
 .third-section{
+    background: url(../shapes/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     margin: 0;
     padding: 10px 0px 100px 0px;
-    background: #F8F9FC;
 }
 #project-heading{
     width: 100%;
@@ -212,7 +214,10 @@ h2{
 }
 /* Extra section */
 .extra-section{
-    background: #f8fcf8;
+    background: url(../shapes/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
     text-align: center;
     padding: 5%;
 }
