@@ -38,7 +38,10 @@ p{
     font-size: 16px;
 }
 /* First section */
-
+.first-section{
+    background: url(../shapes/top-bg.png);
+    background-repeat: no-repeat;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -81,6 +84,11 @@ p{
     font-weight: 700;
 }
 /* Second section */
+.second-section{
+    background: url(../shapes/second-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 h2{
     font-size: 46px;
     line-height: 5px;
@@ -129,6 +137,11 @@ h2{
 }
 
 /* Fourth section */
+.fourth-section{
+    background: url(../shapes/fourth-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .inquiry{ 
     width: 60%;
     margin-left: 20%;
